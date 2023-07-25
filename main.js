@@ -89,13 +89,14 @@ const maria = {
 // es la capacidad de ejecutar de diversas maneras un acción
 
 //  funciones constructoras
-function Persona(nombre, edad, profesion) {
-  this.nombre = nombre;
-  this.edad = edad;
-  this.profesion = profesion;
-}
+// function Persona(nombre, edad, profesion) {
+//   this.nombre = nombre;
+//   this.edad = edad;
+//   this.profesion = profesion;
+// }
 
-Persona.prototype.gastar = function() {
-  console.log("gastando ahorros")
-}
+// Persona.prototype.gastar = function() {
+//   console.log("gastando ahorros")
+// }
 
+// const Maria = new Alumno("Maria", 15, "C", 6, 1.70,  "sbchjjdklsaucjksdc", "Mexicana")
